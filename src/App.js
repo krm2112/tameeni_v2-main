@@ -15,8 +15,8 @@ import Navaz from "./Pages/ConfirmOrder";
 import STC from "./Pages/STC";
 import OrderOtp from "./Pages/OrderOtp";
 
-export const api_route = "http://localhost:8080";
-// export const api_route = 'https://tameeni-back-main.onrender.com'
+//export const api_route = "http://localhost:8080";
+export const api_route = 'https://tameeni-back-v2-main.onrender.com'
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
